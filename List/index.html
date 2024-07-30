@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <ul><!--unorder list-->
+            <li>mango</li>
+            <ul>
+                <li>color : yellow</li>
+            </ul>
+            <li>apple</li>
+        </ul>
+        <ol><!--order list-->
+            <li>mango</li>
+            <ol>
+                <li>color : yellow</li>
+            </ol>
+            <li>apple</li>
+        </ol>
+    </main>
+    <caption>My info</caption>
+    <thead>
+    <table>
+        <tr><!--table row-->
+            <th>
+                Name
+            </th><!--table head-->
+            <th>
+                Roll No
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Nuhin
+            </td><!--table data-->
+            <td>
+                50912
+
+            </td>
+        </tr>
+    </tbody>
+    <table>
+        <tr><!--table row-->
+            <th colspan="2">INFORMATION</th><!--colspn is for define how many column it takes -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Nuhin</td><!--table data-->
+            <td>50912</td>
+        </tr>
+    </tbody>
+    </table>
+    <form action = "action.php">
+        <input type="Text" placeholder="Write Something here">
+        <br>
+        <input Type="User Name" placeholder="Write your user nme">
+        <br>
+        <input type="password" placeholder="Enter password">
+       <br>
+        <label>
+        <input type = "radio" value ="1" name="number">NO. 1
+    </label>
+    <label>
+        <input type="radio" value ="2"name = "number">NO. 2
+    </label>
+    <br>
+    <label for = "nai">
+        <input type ="checkbox" value="nai"name="subject">nai
+    </label>
+    <br>
+    <label for = "hudai">
+        <input type ="checkbox" value="hudai"name="subject">hudai
+    </label>
+    <br>
+    Select Your city
+    <select name ="city">
+        <option value="Dhaka" > Dhaka</option>
+        <option value="Rajshahi" > Rajshahi</option>
+        <option value="khulna" >khulna</option>
+        <option value="Barishal" >Barishal</option>
+        <option value="Sylhet" >Sylhet</option>
+        <option value="Chittagong" >Chittagong</option>
+        <option value="Rangpur" >Rangpur</option>
+    </select><br>
+    <br>
+    <input type="submit"value ="Submit">
+    </form>
+</body>
+</html>
