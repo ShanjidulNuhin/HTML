@@ -1,0 +1,48 @@
+/*Element selector*/
+h1{
+    color : green;
+}
+body{
+    background-color: bisque;
+    h2{
+        color:red;
+    }
+    button{
+        color:aliceblue;
+        background-color: blue;
+    }
+}
+/*Universal selector : *{} this selector select all element in this code... 
+you can chage each element after universal selector'...
+
+ID seletor: or that you have to write id in every html heading and it only select one element each
+in css to change color you have to write #myId{}...
+for example here h2... we will write #headingOne{color: red};
+(it is a bat programing tecnique)
+
+Class selector: can select multiple elements...
+firt give a class name in htlml element then  write ".given class name {color:color name}
+
+common used (Class and Id selector)*/
+
+#Problem1{
+    color: blue;
+}
+.Heading1{
+    color: red;
+    text-align: center;
+}
+.Heading2{
+    color: red;
+}
+.Heading3{
+    color: red;;
+}
+#myID{
+    color:blue;
+}
+/*selector can be select by using comma*/
+h1,h2,h2{
+    color: red;
+}
+
