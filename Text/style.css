@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+    color:chocolate
+    
+}
+h1{
+    font-weight: 50;
+    color:blue;
+    text-decoration: underline overline red;
+   
+}
+body{
+    background-color: blanchedalmond;
+    line-height: 5px;
+}
+button{
+    background-color: blue;
+    color: azure;
+}
+#newID{
+    color: blue;
+    text-decoration: none;
+    font-size:x-large;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: justify;
+}
+#one{
+    font-family:fantasy;
+    font-size: 25px;
+}
+#transforn1{
+    text-decoration: underline dotted red;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#transforn2{
+    text-transform: lowercase;
+    text-decoration: underline dotted red;
+    font-weight: bold;
+    font-weight: 900;
+}
+#transforn3{
+    text-transform: capitalize;
+    text-decoration: underline dotted red;
+    font-weight: bold;
+}
+#transforn4{
+    text-transform: none;
+}
