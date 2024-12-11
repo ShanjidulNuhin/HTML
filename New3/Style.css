@@ -1,0 +1,24 @@
+*{
+    background-color: beige;
+}
+h1{
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+}
+#Pra{
+    text-align: center;
+    font-size: 40px;
+}
+.Button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+button{
+    text-align: center;
+    background-color: blue;
+    cursor: pointer;
+    font-size: 20px;
+}

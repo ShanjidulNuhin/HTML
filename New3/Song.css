@@ -1,0 +1,36 @@
+* {
+    background-color: beige;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; }
+    
+
+#Ran {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+
+#vid {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mu {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#lyrics {
+    text-decoration: underline dotted red;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
